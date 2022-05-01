@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="kalyanFlow" doc:id="6d617990-e308-4496-9675-ccfe6558452b" >
+		<logger level="INFO" doc:name="Logger" doc:id="ca2b79d4-cd3a-47a0-89a8-17b61180941f" message="hitted private flow from main flow "/>
+	</flow>
+</mule>
